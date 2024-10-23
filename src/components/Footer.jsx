@@ -31,7 +31,7 @@ const life = [
 const Footer = () => {
   return (
     <>
-        <div className='bg-white mt-7'>
+        <div className='bg-white '>
         <div className="flex flex-col md:flex-row gap-5 pb-5 mx-5 border-b border-black">
             <div className="mt-3 flex flex-col items-center md:items-start">
                 <img 

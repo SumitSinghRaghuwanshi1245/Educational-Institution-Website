@@ -7,6 +7,7 @@ import Courses from './components/Courses';
 // import Gallery from './components/Gallery';
 import Team from './components/Team';
 
+
 function App() {
   return (
     <>
@@ -18,6 +19,7 @@ function App() {
         {/* <Gallery /> */}
         <Team />
         <Footer />
+
       </div>
     </>
   );
