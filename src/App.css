@@ -1,0 +1,28 @@
+body{
+    scroll-behavior: smooth;
+}
+
+.App-bg {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url('./images/Hero.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0) rotate(90deg);
+    }
+    50% {
+      transform: translateY(10px) rotate(90deg);
+    }
+  }
+  
+  .bounce-animation {
+    animation: bounce 1s infinite;
+  }
